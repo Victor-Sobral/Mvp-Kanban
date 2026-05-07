@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 // Middlewares
 app.use(
   cors({
-    origin: "*", // endereço padrão do Vite
+    origin: "mvp-kanban.netlify.app", // endereço padrão do Vite
   }),
 );
 app.use(express.json());
