@@ -1,5 +1,5 @@
-const BASE_URL = 'http://localhost:3000/api'
-
+const BASE_URL = 'https://mvp-kanban.onrender.com'
+//http://localhost:3000/api
 export const getTasks = async () => {
   const res = await fetch(`${BASE_URL}/tasks`)
   return res.json()
